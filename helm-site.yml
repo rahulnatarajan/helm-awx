@@ -1,0 +1,6 @@
+---
+- name: Helm Deploy
+  hosts: all
+
+  roles:
+    - memcache

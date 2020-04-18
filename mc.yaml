@@ -1,3 +1,4 @@
+---
 - name: Install helm chart
   helm:
     host: localhost

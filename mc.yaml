@@ -1,0 +1,12 @@
+- name: Install helm chart
+  helm:
+    host: localhost
+    chart:
+      name: memcached
+      version: 0.4.0
+      source:
+        type: repo
+        location: https://kubernetes-charts.storage.googleapis.com
+    state: present
+    name: my-memcached
+    namespace: default

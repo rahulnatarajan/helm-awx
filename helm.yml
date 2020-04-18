@@ -1,5 +1,5 @@
 ---
-- name: Helm Deploy
+- name: Helm Master Playbook
   hosts: all
 
   roles:

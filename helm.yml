@@ -3,4 +3,5 @@
   hosts: all
 
   roles:
-    - helm
+    - {role: 'helm', tags: 'helm'}
+    - {role: 'kong', tags: 'kong'} 

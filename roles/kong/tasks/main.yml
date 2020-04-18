@@ -1,0 +1,6 @@
+- name: Update Helm repo
+  command: helm repo update
+
+
+- name: Install Kong
+  command: helm install --name kong stable/kong --wait

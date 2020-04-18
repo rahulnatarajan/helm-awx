@@ -1,7 +1,7 @@
 - name: switch context
-  command: /usr/local/bin/kubectl config use-context awsfseks1
+  command: "/usr/local/bin/kubectl config use-context awsfseks1"
   become: yes
 
 - name: Get Pods in kube-system namespace
-  command: /usr/local/bin/kubectl get po -n kube-system
+  command: "/usr/local/bin/kubectl get po -n kube-system"
   become: yes

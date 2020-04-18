@@ -1,0 +1,2 @@
+- name: Delete Helm chart
+  command: helm delete "{{ chart }}" --purge

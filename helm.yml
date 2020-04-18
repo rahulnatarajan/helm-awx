@@ -4,4 +4,5 @@
 
   roles:
     - {role: 'helm', tags: 'helm'}
-    - {role: 'kong', tags: 'kong'} 
+    - {role: 'kong', tags: 'kong'}
+    - {role: 'delete', tags: 'delete'}

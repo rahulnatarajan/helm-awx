@@ -1,5 +1,5 @@
 - name: Get Pods in kube-system namespace
-  shell: kubectl config use-context awsfseks1
+  command: kubectl config use-context awsfseks1
 
 - name: Get Pods in kube-system namespace
-  shell: kubectl get po -n kube-system
+  command: kubectl get po -n kube-system

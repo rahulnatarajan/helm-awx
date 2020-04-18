@@ -6,3 +6,4 @@
     - {role: 'helm', tags: 'helm'}
     - {role: 'kong', tags: 'kong'}
     - {role: 'delete', tags: 'delete'}
+    - {role: 'status', tags: 'status'}

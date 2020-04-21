@@ -3,4 +3,4 @@
 
 
 - name: Install Kong
-  command: helm install --name kong stable/kong --wait
+  command: helm install --name kong stable/kong

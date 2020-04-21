@@ -7,3 +7,4 @@
     - {role: 'kong', tags: 'kong'}
     - {role: 'delete', tags: 'delete'}
     - {role: 'status', tags: 'status'}
+    - - {role: 'apache', tags: 'apache'}
